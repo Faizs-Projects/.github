@@ -1,0 +1,9 @@
+{
+  "name": "biz-taco-nazo-colonia",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "preflight": "node scripts/preflight.js"
+  }
+}
