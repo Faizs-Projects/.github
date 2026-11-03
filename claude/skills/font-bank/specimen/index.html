@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Font bank</title>
+  <style>
+    @font-face {
+  font-family: "Darker Grotesque";
+  src: url("../bank/files/darker-grotesque.woff2") format("woff2");
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../bank/files/outfit.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("../bank/files/fraunces.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../bank/files/nunito-sans.woff2") format("woff2");
+  font-weight: 200 1000;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Newsreader";
+  src: url("../bank/files/newsreader.woff2") format("woff2");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("../bank/files/figtree.woff2") format("woff2");
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Syne";
+  src: url("../bank/files/syne.woff2") format("woff2");
+  font-weight: 400 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("../bank/files/source-serif-4.woff2") format("woff2");
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("../bank/files/source-sans-3.woff2") format("woff2");
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+    :root {
+      --paper: #f3efe6;
+      --ink: #1c1612;
+      --muted: #5c5148;
+      --rule: rgba(28, 22, 18, 0.16);
+      --chrome-display: "Newsreader", Georgia, "Iowan Old Style", serif;
+      --chrome-body: "Figtree", "Avenir Next", "Segoe UI", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--chrome-body);
+      font-size: 1.0625rem;
+      line-height: 1.5;
+      letter-spacing: 0;
+    }
+
+    header, main, .avoid {
+      width: min(880px, calc(100% - 40px));
+      margin-inline: auto;
+    }
+
+    header {
+      padding: 64px 0 24px;
+    }
+
+    .kicker {
+      margin: 0 0 12px;
+      font-size: 0.75rem;
+      font-weight: 650;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    h1 {
+      margin: 0;
+      font-family: var(--chrome-display);
+      font-weight: 520;
+      font-size: clamp(3rem, 8vw, 5.5rem);
+      line-height: 0.92;
+      letter-spacing: -0.03em;
+      font-synthesis: none;
+    }
+
+    .lede {
+      max-width: 38rem;
+      margin: 20px 0 0;
+      color: var(--muted);
+    }
+
+    article {
+      padding: 40px 0;
+      border-top: 1px solid var(--rule);
+    }
+
+    .industries {
+      margin: 0 0 8px;
+      font-size: 0.75rem;
+      font-weight: 650;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    h2, .display {
+      font-family: var(--display);
+      font-weight: var(--wght);
+      letter-spacing: var(--track);
+      line-height: var(--lh);
+      font-synthesis: none;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(1.6rem, 3vw, 2rem);
+    }
+
+    .display {
+      margin: 20px 0 0;
+      font-size: var(--size);
+    }
+
+    .read {
+      max-width: 36rem;
+      margin: 20px 0 0;
+      font-family: var(--body);
+      font-weight: 400;
+      font-size: 1.0625rem;
+      line-height: 1.5;
+    }
+
+    .why, .used {
+      max-width: 38rem;
+      margin: 16px 0 0;
+      color: var(--muted);
+    }
+
+    .facts {
+      display: grid;
+      gap: 8px 24px;
+      margin: 24px 0 0;
+    }
+
+    .facts div {
+      display: grid;
+      grid-template-columns: 6.5rem 1fr;
+      gap: 12px;
+    }
+
+    dt {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    dd {
+      margin: 0;
+    }
+
+    .avoid {
+      padding: 40px 0 80px;
+      border-top: 1px solid var(--rule);
+    }
+
+    .avoid h2 {
+      margin: 0 0 12px;
+      font-family: var(--chrome-display);
+      font-weight: 560;
+      font-size: clamp(2rem, 4vw, 2.75rem);
+      letter-spacing: -0.02em;
+      line-height: 1;
+    }
+
+    .avoid ul {
+      margin: 16px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .avoid li {
+      max-width: 38rem;
+      margin-top: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="kicker">Cool half</p>
+    <h1>Font bank</h1>
+    <p class="lede">Roman variable files, Latin subset, weight axis only. Do not set opsz, ital, SOFT, WONK, or wdth on these files. Those axes are not in the file. Italics are not in the bank. Each face is OFL-1.1 and is stored with its license.</p>
+  </header>
+  <main>
+    <article
+  id="counter-poster"
+  style="--display: &quot;Darker Grotesque&quot;, &quot;Arial Narrow&quot;, sans-serif; --body: &quot;Outfit&quot;, &quot;Avenir Next&quot;, &quot;Segoe UI&quot;, sans-serif; --size: clamp(3.4rem, 8vw, 6.25rem); --lh: 0.88; --track: -0.045em; --wght: 800;"
+>
+  <p class="industries">restaurant, taqueria, takeout, food-truck</p>
+  <h2>Counter poster</h2>
+  <p class="display">Birria, with the consommé.</p>
+  <p class="read">Order at the counter. The phone number sits on the same screen as the dish.</p>
+  <p class="why">Darker Grotesque is a tall Latin American grotesque, the kind of cheap-print letter a taqueria paints on the window. Outfit stays quiet so a menu can be read from a parking lot.</p>
+  <p class="used">Used on Taco Nazo, Colonia.</p>
+  <dl class="facts">
+    <div><dt>Display</dt><dd>Darker Grotesque 300–900</dd></div>
+    <div><dt>Body</dt><dd>Outfit 100–900</dd></div>
+    <div><dt>Files</dt><dd>files/darker-grotesque.woff2 and files/outfit.woff2</dd></div>
+    <div><dt>License</dt><dd>OFL-1.1, weight axis only</dd></div>
+  </dl>
+</article>
+<article
+  id="dining-room"
+  style="--display: &quot;Fraunces&quot;, Georgia, &quot;Iowan Old Style&quot;, serif; --body: &quot;Figtree&quot;, &quot;Avenir Next&quot;, &quot;Segoe UI&quot;, sans-serif; --size: clamp(3rem, 6.5vw, 5.25rem); --lh: 0.96; --track: -0.02em; --wght: 560;"
+>
+  <p class="industries">restaurant</p>
+  <h2>Dining room</h2>
+  <p class="display">Tonight&#x27;s table.</p>
+  <p class="read">The dish name can be soft. The hours and the phone stay plain.</p>
+  <p class="why">Fraunces is a soft old-style serif for a sit-down room, not a counter. Figtree is a straight grotesque so the practical lines do not compete with the dish.</p>
+  <dl class="facts">
+    <div><dt>Display</dt><dd>Fraunces 100–900</dd></div>
+    <div><dt>Body</dt><dd>Figtree 300–900</dd></div>
+    <div><dt>Files</dt><dd>files/fraunces.woff2 and files/figtree.woff2</dd></div>
+    <div><dt>License</dt><dd>OFL-1.1, weight axis only</dd></div>
+  </dl>
+</article>
+<article
+  id="menu-editorial"
+  style="--display: &quot;Newsreader&quot;, Georgia, &quot;Iowan Old Style&quot;, serif; --body: &quot;Figtree&quot;, &quot;Avenir Next&quot;, &quot;Segoe UI&quot;, sans-serif; --size: clamp(2.8rem, 6vw, 4.75rem); --lh: 1.02; --track: -0.02em; --wght: 520;"
+>
+  <p class="industries">restaurant, bar</p>
+  <h2>Menu editorial</h2>
+  <p class="display">The list for tonight.</p>
+  <p class="read">Dishes, hours, and the phone, in that order, with room between them.</p>
+  <p class="why">Newsreader is a text serif that still holds up as a headline. Figtree carries prices, hours, and the address without adding a second personality.</p>
+  <dl class="facts">
+    <div><dt>Display</dt><dd>Newsreader 200–800</dd></div>
+    <div><dt>Body</dt><dd>Figtree 300–900</dd></div>
+    <div><dt>Files</dt><dd>files/newsreader.woff2 and files/figtree.woff2</dd></div>
+    <div><dt>License</dt><dd>OFL-1.1, weight axis only</dd></div>
+  </dl>
+</article>
+<article
+  id="cafe-window"
+  style="--display: &quot;Fraunces&quot;, Georgia, &quot;Iowan Old Style&quot;, serif; --body: &quot;Nunito Sans&quot;, &quot;Avenir Next&quot;, &quot;Segoe UI&quot;, sans-serif; --size: clamp(3rem, 7vw, 5.5rem); --lh: 0.95; --track: -0.02em; --wght: 500;"
+>
+  <p class="industries">cafe, bakery</p>
+  <h2>Cafe window</h2>
+  <p class="display">Morning, on the glass.</p>
+  <p class="read">Coffee, a pastry, and a seat if there is one.</p>
+  <p class="why">Fraunces at a lighter weight feels painted on a cafe window. Nunito Sans is round enough for a short menu and still readable at arm&#x27;s length.</p>
+  <dl class="facts">
+    <div><dt>Display</dt><dd>Fraunces 100–900</dd></div>
+    <div><dt>Body</dt><dd>Nunito Sans 200–1000</dd></div>
+    <div><dt>Files</dt><dd>files/fraunces.woff2 and files/nunito-sans.woff2</dd></div>
+    <div><dt>License</dt><dd>OFL-1.1, weight axis only</dd></div>
+  </dl>
+</article>
+<article
+  id="night-sign"
+  style="--display: &quot;Syne&quot;, &quot;Arial Narrow&quot;, sans-serif; --body: &quot;Outfit&quot;, &quot;Avenir Next&quot;, &quot;Segoe UI&quot;, sans-serif; --size: clamp(3.2rem, 8vw, 6rem); --lh: 0.9; --track: -0.04em; --wght: 750;"
+>
+  <p class="industries">bar</p>
+  <h2>Night sign</h2>
+  <p class="display">Open late.</p>
+  <p class="read">The address and the last hour, readable from the sidewalk.</p>
+  <p class="why">Syne is wide and a little strange, closer to a painted bar sign than to a logo template. Outfit does the hours so the sign does not have to.</p>
+  <dl class="facts">
+    <div><dt>Display</dt><dd>Syne 400–800</dd></div>
+    <div><dt>Body</dt><dd>Outfit 100–900</dd></div>
+    <div><dt>Files</dt><dd>files/syne.woff2 and files/outfit.woff2</dd></div>
+    <div><dt>License</dt><dd>OFL-1.1, weight axis only</dd></div>
+  </dl>
+</article>
+<article
+  id="practice"
+  style="--display: &quot;Source Serif 4&quot;, Georgia, &quot;Palatino Linotype&quot;, serif; --body: &quot;Source Sans 3&quot;, &quot;Segoe UI&quot;, sans-serif; --size: clamp(2.6rem, 5vw, 4.25rem); --lh: 1.05; --track: -0.015em; --wght: 560;"
+>
+  <p class="industries">dentist, lawyer, trade</p>
+  <h2>Practice</h2>
+  <p class="display">The office.</p>
+  <p class="read">The phone, the hours, and how to book. Nothing else in the way.</p>
+  <p class="why">Source Serif 4 for the name, Source Sans 3 for the facts. It reads as a practice, not a costume and not a startup landing page.</p>
+  <dl class="facts">
+    <div><dt>Display</dt><dd>Source Serif 4 200–900</dd></div>
+    <div><dt>Body</dt><dd>Source Sans 3 200–900</dd></div>
+    <div><dt>Files</dt><dd>files/source-serif-4.woff2 and files/source-sans-3.woff2</dd></div>
+    <div><dt>License</dt><dd>OFL-1.1, weight axis only</dd></div>
+  </dl>
+</article>
+  </main>
+  <section class="avoid" id="avoid">
+    <h2>Leave these out</h2>
+    <p class="lede">These are the other half. They are named so a page does not reach for them. The files are not in the bank.</p>
+    <ul>
+      <li><strong>Inter.</strong> The body face of a generic template. A page set in Inter looks unfinished before the layout is even judged.</li>
+<li><strong>Poppins, Playfair Display.</strong> The default pairing from an AI layout. A geometric sans plus a fashionable serif, with no tie to the business.</li>
+<li><strong>Bebas Neue, Anton, Lilita One.</strong> Compressed poster faces used as a shortcut for loud. Every restaurant that uses them looks like the same poster.</li>
+<li><strong>Montserrat.</strong> Used for the headline and the menu, so nothing has a role.</li>
+<li><strong>Comic-style script.</strong> A script face named like a joke, including anything in the Olé family, reads as a costume instead of the shop.</li>
+    </ul>
+  </section>
+</body>
+</html>

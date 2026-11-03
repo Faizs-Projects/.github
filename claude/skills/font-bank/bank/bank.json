@@ -1,0 +1,402 @@
+{
+  "name": "font-bank",
+  "updated": "2026-11-02",
+  "subset": "latin",
+  "style": "normal",
+  "axesInFile": [
+    "wght"
+  ],
+  "note": "Roman variable files, Latin subset, weight axis only. Do not set opsz, ital, SOFT, WONK, or wdth on these files. Those axes are not in the file. Italics are not in the bank. Each face is OFL-1.1 and is stored with its license.",
+  "families": [
+    {
+      "id": "darker-grotesque",
+      "family": "Darker Grotesque",
+      "category": "sans-serif",
+      "file": "files/darker-grotesque.woff2",
+      "licenseFile": "licenses/darker-grotesque.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2019 The Darker Grotesque Project Authors (https://github.com/bettergui/DarkerGrotesque)",
+      "sha256": "944bf9611eff8457c976ce63afa82d8507e9c45aa340f5b016b096353862fb1a",
+      "bytes": 23932,
+      "variable": true,
+      "axes": [
+        "wght"
+      ],
+      "weightMin": 300,
+      "weightMax": 900,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "\"Arial Narrow\", sans-serif",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/fontsource/fonts/darker-grotesque:vf@5.3.0/latin-wght-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Darker+Grotesque"
+    },
+    {
+      "id": "outfit",
+      "family": "Outfit",
+      "category": "sans-serif",
+      "file": "files/outfit.woff2",
+      "licenseFile": "licenses/outfit.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)",
+      "sha256": "6c18d579fd87c3776be068b762cbc83fde3acb543d49eabd3ade842eb987e887",
+      "bytes": 32292,
+      "variable": true,
+      "axes": [
+        "wght"
+      ],
+      "weightMin": 100,
+      "weightMax": 900,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "\"Avenir Next\", \"Segoe UI\", sans-serif",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/fontsource/fonts/outfit:vf@5.3.0/latin-wght-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Outfit"
+    },
+    {
+      "id": "fraunces",
+      "family": "Fraunces",
+      "category": "serif",
+      "file": "files/fraunces.woff2",
+      "licenseFile": "licenses/fraunces.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2020 The Fraunces Project Authors (github.com/undercasetype/Fraunces) Fraunces-Italic[SOFT,WONK,opsz,wght].ttf: Copyright 2020 The Fraunces Project Authors (github.com/undercasetype/Fraunces)",
+      "sha256": "7f9d191d999336d3b9790afa72e1358e50a13b06d4f289341e92a311967a80f9",
+      "bytes": 36620,
+      "variable": true,
+      "axes": [
+        "wght"
+      ],
+      "weightMin": 100,
+      "weightMax": 900,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "Georgia, \"Iowan Old Style\", serif",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/fontsource/fonts/fraunces:vf@5.3.0/latin-wght-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Fraunces"
+    },
+    {
+      "id": "nunito-sans",
+      "family": "Nunito Sans",
+      "category": "sans-serif",
+      "file": "files/nunito-sans.woff2",
+      "licenseFile": "licenses/nunito-sans.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2016 The Nunito Sans Project Authors (https://github.com/Fonthausen/NunitoSans) NunitoSans-Italic[YTLC,opsz,wdth,wght].ttf: Copyright 2016 The Nunito Sans Project Authors (https://github.com/Fonthausen/NunitoSans)",
+      "sha256": "29e3890496844a9ea81975c52771c587c872b4eb317026422d1995b88d21b57d",
+      "bytes": 31076,
+      "variable": true,
+      "axes": [
+        "wght"
+      ],
+      "weightMin": 200,
+      "weightMax": 1000,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "\"Avenir Next\", \"Segoe UI\", sans-serif",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/fontsource/fonts/nunito-sans:vf@5.3.0/latin-wght-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Nunito+Sans"
+    },
+    {
+      "id": "newsreader",
+      "family": "Newsreader",
+      "category": "serif",
+      "file": "files/newsreader.woff2",
+      "licenseFile": "licenses/newsreader.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2020 The Newsreader Project Authors (http://github.com/productiontype/Newsreader) Newsreader-Italic[opsz,wght].ttf: Copyright 2020 The Newsreader Project Authors (http://github.com/productiontype/Newsreader)",
+      "sha256": "62981321d9a3cc7a61a73792729043703fd6112da86e8ec848bb57f088578757",
+      "bytes": 58084,
+      "variable": true,
+      "axes": [
+        "wght"
+      ],
+      "weightMin": 200,
+      "weightMax": 800,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "Georgia, \"Iowan Old Style\", serif",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/fontsource/fonts/newsreader:vf@5.3.0/latin-wght-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Newsreader"
+    },
+    {
+      "id": "figtree",
+      "family": "Figtree",
+      "category": "sans-serif",
+      "file": "files/figtree.woff2",
+      "licenseFile": "licenses/figtree.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2022 The Figtree Project Authors (https://github.com/erikdkennedy/figtree) Figtree-Italic[wght].ttf: Copyright 2022 The Figtree Project Authors (https://github.com/erikdkennedy/figtree)",
+      "sha256": "4ba7d3d096695818fe0686be4f1e82c6b05134e18a22260336130335027462dd",
+      "bytes": 20156,
+      "variable": true,
+      "axes": [
+        "wght"
+      ],
+      "weightMin": 300,
+      "weightMax": 900,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "\"Avenir Next\", \"Segoe UI\", sans-serif",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/fontsource/fonts/figtree:vf@5.3.0/latin-wght-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Figtree"
+    },
+    {
+      "id": "syne",
+      "family": "Syne",
+      "category": "sans-serif",
+      "file": "files/syne.woff2",
+      "licenseFile": "licenses/syne.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2019 The Syne Project Authors (https://gitlab.com/bonjour-monde/fonderie/syne-typeface)",
+      "sha256": "68b623f0e45b905041b2edb9b2e4f563a505f13db1cd06b5f1946eb2e1f47048",
+      "bytes": 34608,
+      "variable": true,
+      "axes": [
+        "wght"
+      ],
+      "weightMin": 400,
+      "weightMax": 800,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "\"Arial Narrow\", sans-serif",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/fontsource/fonts/syne:vf@5.3.0/latin-wght-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Syne"
+    },
+    {
+      "id": "source-serif-4",
+      "family": "Source Serif 4",
+      "category": "serif",
+      "file": "files/source-serif-4.woff2",
+      "licenseFile": "licenses/source-serif-4.txt",
+      "license": "OFL-1.1",
+      "copyright": "Google Inc.",
+      "sha256": "382475f38242c52d42a3e5ff8dc69b5d73f10d0d21e4550b5fe232984688779a",
+      "bytes": 50936,
+      "variable": true,
+      "axes": [
+        "wght"
+      ],
+      "weightMin": 200,
+      "weightMax": 900,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "Georgia, \"Palatino Linotype\", serif",
+      "fontsource": "5.3.1",
+      "origin": "https://cdn.jsdelivr.net/fontsource/fonts/source-serif-4:vf@5.3.1/latin-wght-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Source+Serif+4"
+    },
+    {
+      "id": "source-sans-3",
+      "family": "Source Sans 3",
+      "category": "sans-serif",
+      "file": "files/source-sans-3.woff2",
+      "licenseFile": "licenses/source-sans-3.txt",
+      "license": "OFL-1.1",
+      "copyright": "Google Inc.",
+      "sha256": "19143dca075972bc84e3fd9eab7416dd40cc565dccb2435a044bdfabe060c7d5",
+      "bytes": 28872,
+      "variable": true,
+      "axes": [
+        "wght"
+      ],
+      "weightMin": 200,
+      "weightMax": 900,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "\"Segoe UI\", sans-serif",
+      "fontsource": "5.3.1",
+      "origin": "https://cdn.jsdelivr.net/fontsource/fonts/source-sans-3:vf@5.3.1/latin-wght-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Source+Sans+3"
+    }
+  ],
+  "pairings": [
+    {
+      "id": "counter-poster",
+      "name": "Counter poster",
+      "half": "cool",
+      "display": "darker-grotesque",
+      "body": "outfit",
+      "industries": [
+        "restaurant",
+        "taqueria",
+        "takeout",
+        "food-truck"
+      ],
+      "usedOn": "Taco Nazo, Colonia",
+      "sampleDisplay": "Birria, with the consomm\u00e9.",
+      "sampleBody": "Order at the counter. The phone number sits on the same screen as the dish.",
+      "why": "Darker Grotesque is a tall Latin American grotesque, the kind of cheap-print letter a taqueria paints on the window. Outfit stays quiet so a menu can be read from a parking lot.",
+      "scale": {
+        "displaySize": "clamp(3.4rem, 8vw, 6.25rem)",
+        "displayLineHeight": 0.88,
+        "displayTracking": "-0.045em",
+        "displayWeight": 800,
+        "bodySize": "1.0625rem",
+        "bodyLineHeight": 1.5,
+        "bodyTracking": "0",
+        "bodyWeight": 400
+      }
+    },
+    {
+      "id": "dining-room",
+      "name": "Dining room",
+      "half": "cool",
+      "display": "fraunces",
+      "body": "figtree",
+      "industries": [
+        "restaurant"
+      ],
+      "sampleDisplay": "Tonight's table.",
+      "sampleBody": "The dish name can be soft. The hours and the phone stay plain.",
+      "why": "Fraunces is a soft old-style serif for a sit-down room, not a counter. Figtree is a straight grotesque so the practical lines do not compete with the dish.",
+      "scale": {
+        "displaySize": "clamp(3rem, 6.5vw, 5.25rem)",
+        "displayLineHeight": 0.96,
+        "displayTracking": "-0.02em",
+        "displayWeight": 560,
+        "bodySize": "1.0625rem",
+        "bodyLineHeight": 1.5,
+        "bodyTracking": "0",
+        "bodyWeight": 400
+      }
+    },
+    {
+      "id": "menu-editorial",
+      "name": "Menu editorial",
+      "half": "cool",
+      "display": "newsreader",
+      "body": "figtree",
+      "industries": [
+        "restaurant",
+        "bar"
+      ],
+      "sampleDisplay": "The list for tonight.",
+      "sampleBody": "Dishes, hours, and the phone, in that order, with room between them.",
+      "why": "Newsreader is a text serif that still holds up as a headline. Figtree carries prices, hours, and the address without adding a second personality.",
+      "scale": {
+        "displaySize": "clamp(2.8rem, 6vw, 4.75rem)",
+        "displayLineHeight": 1.02,
+        "displayTracking": "-0.02em",
+        "displayWeight": 520,
+        "bodySize": "1.0625rem",
+        "bodyLineHeight": 1.5,
+        "bodyTracking": "0",
+        "bodyWeight": 400
+      }
+    },
+    {
+      "id": "cafe-window",
+      "name": "Cafe window",
+      "half": "cool",
+      "display": "fraunces",
+      "body": "nunito-sans",
+      "industries": [
+        "cafe",
+        "bakery"
+      ],
+      "sampleDisplay": "Morning, on the glass.",
+      "sampleBody": "Coffee, a pastry, and a seat if there is one.",
+      "why": "Fraunces at a lighter weight feels painted on a cafe window. Nunito Sans is round enough for a short menu and still readable at arm's length.",
+      "scale": {
+        "displaySize": "clamp(3rem, 7vw, 5.5rem)",
+        "displayLineHeight": 0.95,
+        "displayTracking": "-0.02em",
+        "displayWeight": 500,
+        "bodySize": "1.0625rem",
+        "bodyLineHeight": 1.5,
+        "bodyTracking": "0",
+        "bodyWeight": 400
+      }
+    },
+    {
+      "id": "night-sign",
+      "name": "Night sign",
+      "half": "cool",
+      "display": "syne",
+      "body": "outfit",
+      "industries": [
+        "bar"
+      ],
+      "sampleDisplay": "Open late.",
+      "sampleBody": "The address and the last hour, readable from the sidewalk.",
+      "why": "Syne is wide and a little strange, closer to a painted bar sign than to a logo template. Outfit does the hours so the sign does not have to.",
+      "scale": {
+        "displaySize": "clamp(3.2rem, 8vw, 6rem)",
+        "displayLineHeight": 0.9,
+        "displayTracking": "-0.04em",
+        "displayWeight": 750,
+        "bodySize": "1.0625rem",
+        "bodyLineHeight": 1.5,
+        "bodyTracking": "0",
+        "bodyWeight": 400
+      }
+    },
+    {
+      "id": "practice",
+      "name": "Practice",
+      "half": "cool",
+      "display": "source-serif-4",
+      "body": "source-sans-3",
+      "industries": [
+        "dentist",
+        "lawyer",
+        "trade"
+      ],
+      "sampleDisplay": "The office.",
+      "sampleBody": "The phone, the hours, and how to book. Nothing else in the way.",
+      "why": "Source Serif 4 for the name, Source Sans 3 for the facts. It reads as a practice, not a costume and not a startup landing page.",
+      "scale": {
+        "displaySize": "clamp(2.6rem, 5vw, 4.25rem)",
+        "displayLineHeight": 1.05,
+        "displayTracking": "-0.015em",
+        "displayWeight": 560,
+        "bodySize": "1.0625rem",
+        "bodyLineHeight": 1.5,
+        "bodyTracking": "0",
+        "bodyWeight": 400
+      }
+    }
+  ],
+  "avoid": [
+    {
+      "families": [
+        "Inter"
+      ],
+      "why": "The body face of a generic template. A page set in Inter looks unfinished before the layout is even judged."
+    },
+    {
+      "families": [
+        "Poppins",
+        "Playfair Display"
+      ],
+      "why": "The default pairing from an AI layout. A geometric sans plus a fashionable serif, with no tie to the business."
+    },
+    {
+      "families": [
+        "Bebas Neue",
+        "Anton",
+        "Lilita One"
+      ],
+      "why": "Compressed poster faces used as a shortcut for loud. Every restaurant that uses them looks like the same poster."
+    },
+    {
+      "families": [
+        "Montserrat"
+      ],
+      "why": "Used for the headline and the menu, so nothing has a role."
+    },
+    {
+      "families": [
+        "Comic-style script"
+      ],
+      "why": "A script face named like a joke, including anything in the Ol\u00e9 family, reads as a costume instead of the shop."
+    }
+  ]
+}
