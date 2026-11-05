@@ -7,7 +7,7 @@ Copy the named .woff2 files and their license files next to the CSS.
 import argparse
 import sys
 
-from banklib import families_by_id, load, stack
+from banklib import families_by_id, load, stack, weight_css
 
 
 def render(pairing, families):
@@ -27,7 +27,7 @@ def render(pairing, families):
                     "@font-face {",
                     f"  font-family: \"{family['family']}\";",
                     f"  src: url(\"{filename}\") format(\"woff2\");",
-                    f"  font-weight: {family['weightMin']} {family['weightMax']};",
+                    f"  font-weight: {weight_css(family)};",
                     "  font-style: normal;",
                     "  font-display: swap;",
                     "}",
@@ -44,7 +44,8 @@ def render(pairing, families):
         "   Copy these files next to this CSS:",
     ]
     header.extend(f"   - {line}" for line in files)
-    header.append("   Weight axis only. Do not set opsz, ital, SOFT, WONK, or wdth.")
+    header.append("   OFL-1.1, free for paid client work. Keep the license file with the font.")
+    header.append("   Variable files are the weight axis only. Do not set opsz, ital, SOFT, WONK, or wdth.")
     header.append("*/")
     rules = "\n\n".join(blocks)
     usage = "\n".join(

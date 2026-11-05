@@ -24,7 +24,7 @@ class FontBankTests(unittest.TestCase):
             self.assertEqual(data[:4], b"wOF2", family["id"])
             self.assertEqual(len(data), family["bytes"], family["id"])
             self.assertEqual(hashlib.sha256(data).hexdigest(), family["sha256"], family["id"])
-            self.assertEqual(family["axes"], ["wght"])
+            self.assertTrue(family["axes"] == ["wght"] or family["axes"] == [])
             self.assertEqual(family["license"], "OFL-1.1")
             self.assertEqual(family["style"], "normal")
 
@@ -41,6 +41,8 @@ class FontBankTests(unittest.TestCase):
             self.assertIn(pairing["display"], self.families)
             self.assertIn(pairing["body"], self.families)
             self.assertTrue(pairing["why"])
+            self.assertTrue(pairing["occasion"])
+            self.assertTrue(pairing["picture"])
             self.assertTrue(pairing["industries"])
             scale = pairing["scale"]
             self.assertIn("clamp(", scale["displaySize"])
@@ -55,13 +57,15 @@ class FontBankTests(unittest.TestCase):
     def test_restaurant_returns_three_cool_pairings(self):
         payload = self._list(["restaurant"])
         ids = [row["id"] for row in payload["pairings"]]
-        self.assertEqual(ids, ["counter-poster", "dining-room", "menu-editorial"])
+        self.assertEqual(ids[:3], ["counter-poster", "dining-room", "menu-editorial"])
         self.assertIn("displayFamily", payload["pairings"][0])
         self.assertEqual(payload["pairings"][0]["displayFamily"]["family"], "Darker Grotesque")
 
     def test_dentist_returns_the_practice_pairing(self):
         payload = self._list(["lawyer"])
-        self.assertEqual([row["id"] for row in payload["pairings"]], ["practice"])
+        ids = [row["id"] for row in payload["pairings"]]
+        self.assertIn("practice", ids)
+        self.assertIn("small", ids)
 
     def test_unknown_industry_stays_empty(self):
         payload = self._list(["aquarium"])
@@ -89,6 +93,24 @@ class FontBankTests(unittest.TestCase):
         self.assertIn("Do not set opsz", css)
         self.assertNotIn("font-variation-settings", css)
 
+    def test_requested_occasions_are_in_the_bank(self):
+        found = {pairing["occasion"] for pairing in self.bank["pairings"]}
+        for occasion in (
+            "high-end",
+            "chill",
+            "local",
+            "thick",
+            "thin",
+            "sharp",
+            "soft",
+            "bubble",
+            "small",
+        ):
+            self.assertIn(occasion, found)
+        payload = self._list(["--occasion", "bubble"])
+        self.assertEqual([row["id"] for row in payload["pairings"]], ["bubble"])
+        self.assertEqual(payload["pairings"][0]["displayFamily"]["license"], "OFL-1.1")
+
     def test_food_truck_with_a_space_matches(self):
         payload = self._list(["food truck"])
         self.assertEqual([row["id"] for row in payload["pairings"]], ["counter-poster"])
@@ -100,6 +122,10 @@ class FontBankTests(unittest.TestCase):
         for pairing in self.bank["pairings"]:
             self.assertIn(f'id="{pairing["id"]}"', text)
             self.assertIn(html.escape(pairing["sampleDisplay"]), text)
+            self.assertIn(f'../bank/{pairing["picture"]}', text)
+            picture = ROOT / "bank" / pairing["picture"]
+            self.assertEqual(picture.read_bytes()[:8], b"\x89PNG\r\n\x1a\n", pairing["id"])
+            self.assertGreater(picture.stat().st_size, 4000, pairing["id"])
         for family in self.bank["families"]:
             self.assertIn(f'url("../bank/files/{family["id"]}.woff2")', text)
         self.assertIn("Leave these out", text)

@@ -1,12 +1,12 @@
 {
   "name": "font-bank",
-  "updated": "2026-11-02",
+  "updated": "2026-11-04",
   "subset": "latin",
   "style": "normal",
   "axesInFile": [
     "wght"
   ],
-  "note": "Roman variable files, Latin subset, weight axis only. Do not set opsz, ital, SOFT, WONK, or wdth on these files. Those axes are not in the file. Italics are not in the bank. Each face is OFL-1.1 and is stored with its license.",
+  "note": "Every face is the SIL Open Font License 1.1, so you can use it on a paid client site, a menu, or a sign. Keep the license file next to the font. Do not sell the font file by itself. Files are roman and Latin. A variable file is the weight axis only, and a static file is one weight. Italics are not included.",
   "families": [
     {
       "id": "darker-grotesque",
@@ -214,6 +214,366 @@
       "fontsource": "5.3.1",
       "origin": "https://cdn.jsdelivr.net/fontsource/fonts/source-sans-3:vf@5.3.1/latin-wght-normal.woff2",
       "specimen": "https://fonts.google.com/specimen/Source+Sans+3"
+    },
+    {
+      "id": "bodoni-moda",
+      "family": "Bodoni Moda",
+      "category": "serif",
+      "file": "files/bodoni-moda.woff2",
+      "licenseFile": "licenses/bodoni-moda.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2020 The Bodoni Moda Project Authors (https://github.com/indestructible-type/Bodoni) BodoniModa-Italic[opsz,wght].ttf: Copyright 2020 The Bodoni Moda Project Authors (https://github.com/indestructible-type/Bodoni)",
+      "sha256": "192ae876c21d9258d096a526dad5bddf37f0daa69cfe943cae5f6be5a52adda2",
+      "bytes": 25884,
+      "variable": true,
+      "axes": [
+        "wght"
+      ],
+      "weightMin": 400,
+      "weightMax": 900,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "Georgia, \"Palatino Linotype\", serif",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/fontsource/fonts/bodoni-moda:vf@5.3.0/latin-wght-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Bodoni+Moda"
+    },
+    {
+      "id": "archivo-black",
+      "family": "Archivo Black",
+      "category": "sans-serif",
+      "file": "files/archivo-black.woff2",
+      "licenseFile": "licenses/archivo-black.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2017 The Archivo Black Project Authors (https://github.com/Omnibus-Type/ArchivoBlack)",
+      "sha256": "25f33e61cf995abd6be62931cf03bf427286259177b43618cc410ee0157cfd30",
+      "bytes": 18604,
+      "variable": false,
+      "axes": [],
+      "weightMin": 400,
+      "weightMax": 400,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "\"Arial Black\", \"Arial Narrow\", sans-serif",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/npm/@fontsource/archivo-black@5.3.0/files/archivo-black-latin-400-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Archivo+Black"
+    },
+    {
+      "id": "archivo",
+      "family": "Archivo",
+      "category": "sans-serif",
+      "file": "files/archivo.woff2",
+      "licenseFile": "licenses/archivo.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo) Archivo-Italic[wdth,wght].ttf: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)",
+      "sha256": "8f704806dbedeaaeca334b11ec348bc3ac3a439d6431544b3afb54f534ee4967",
+      "bytes": 34928,
+      "variable": true,
+      "axes": [
+        "wght"
+      ],
+      "weightMin": 100,
+      "weightMax": 900,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "\"Segoe UI\", sans-serif",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/fontsource/fonts/archivo:vf@5.3.0/latin-wght-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Archivo"
+    },
+    {
+      "id": "raleway",
+      "family": "Raleway",
+      "category": "sans-serif",
+      "file": "files/raleway.woff2",
+      "licenseFile": "licenses/raleway.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2010 The Raleway Project Authors (impallari@gmail.com), with Reserved Font Name \"Raleway\". Raleway-Italic[wght].ttf: Copyright 2010 The Raleway Project Authors (impallari@gmail.com), with Reserved Font Name \"Raleway\".",
+      "sha256": "b1bef1f03a77a36fc257c5525e32a1dd621bb6f935b743a419da7ed0b18dc8f5",
+      "bytes": 48264,
+      "variable": true,
+      "axes": [
+        "wght"
+      ],
+      "weightMin": 100,
+      "weightMax": 900,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "\"Gill Sans\", \"Trebuchet MS\", sans-serif",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/fontsource/fonts/raleway:vf@5.3.0/latin-wght-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Raleway"
+    },
+    {
+      "id": "big-shoulders-display",
+      "family": "Big Shoulders Display",
+      "category": "display",
+      "file": "files/big-shoulders-display.woff2",
+      "licenseFile": "licenses/big-shoulders-display.txt",
+      "license": "OFL-1.1",
+      "copyright": "Google Inc.",
+      "sha256": "075292b13a638821b34726b33e49b3b711c4b9bee9b42f2bb68fa3b6ec888f2b",
+      "bytes": 35504,
+      "variable": true,
+      "axes": [
+        "wght"
+      ],
+      "weightMin": 100,
+      "weightMax": 900,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "\"Arial Narrow\", sans-serif",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/fontsource/fonts/big-shoulders-display:vf@5.3.0/latin-wght-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Big+Shoulders+Display"
+    },
+    {
+      "id": "schibsted-grotesk",
+      "family": "Schibsted Grotesk",
+      "category": "sans-serif",
+      "file": "files/schibsted-grotesk.woff2",
+      "licenseFile": "licenses/schibsted-grotesk.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2023 The Schibsted-Grotesk Project Authors (https://github.com/schibsted/schibsted-grotesk) SchibstedGrotesk-Italic[wght].ttf: Copyright 2023 The Schibsted-Grotesk Project Authors (https://github.com/schibsted/schibsted-grotesk)",
+      "sha256": "4c8b93f431d462c696e12b9d6a033feb3394d36e66e781357c496b95d8a75e05",
+      "bytes": 46752,
+      "variable": true,
+      "axes": [
+        "wght"
+      ],
+      "weightMin": 400,
+      "weightMax": 900,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "\"Segoe UI\", sans-serif",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/fontsource/fonts/schibsted-grotesk:vf@5.3.0/latin-wght-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Schibsted+Grotesk"
+    },
+    {
+      "id": "quicksand",
+      "family": "Quicksand",
+      "category": "sans-serif",
+      "file": "files/quicksand.woff2",
+      "licenseFile": "licenses/quicksand.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2019 The Quicksand Project Authors (https://github.com/andrew-paglinawan/QuicksandFamily.git), with Reserved Font Name \"Quicksand\"",
+      "sha256": "2add7d60b1cd2ab84c9967e23d5ec08eb3fc9635c46855b17d59404dec6b410e",
+      "bytes": 28244,
+      "variable": true,
+      "axes": [
+        "wght"
+      ],
+      "weightMin": 300,
+      "weightMax": 700,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "\"Avenir Next\", \"Segoe UI\", sans-serif",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/fontsource/fonts/quicksand:vf@5.3.0/latin-wght-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Quicksand"
+    },
+    {
+      "id": "fredoka",
+      "family": "Fredoka",
+      "category": "sans-serif",
+      "file": "files/fredoka.woff2",
+      "licenseFile": "licenses/fredoka.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2016 The Fredoka Project Authors (https://github.com/hafontia/Fredoka-One)",
+      "sha256": "99d6c78e043710d4f83ed90716779798b7b04eb690f73e0ad0e8f32d1f0e98c2",
+      "bytes": 29732,
+      "variable": true,
+      "axes": [
+        "wght"
+      ],
+      "weightMin": 300,
+      "weightMax": 700,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "\"Avenir Next\", \"Trebuchet MS\", sans-serif",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/fontsource/fonts/fredoka:vf@5.3.0/latin-wght-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Fredoka"
+    },
+    {
+      "id": "atkinson-hyperlegible-next",
+      "family": "Atkinson Hyperlegible Next",
+      "category": "sans-serif",
+      "file": "files/atkinson-hyperlegible-next.woff2",
+      "licenseFile": "licenses/atkinson-hyperlegible-next.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2020-2024 The Atkinson Hyperlegible Next Project Authors (https://github.com/googlefonts/atkinson-hyperlegible-next) AtkinsonHyperlegibleNext-Italic[wght].ttf: Copyright 2020-2024 The Atkinson Hyperlegible Next Project Authors (https://github.com/googlefonts/atkinson-hyperlegible-next)",
+      "sha256": "18b2a1a39a2fa298b0ba5390aca68462669826c90925656f1c1f6796e0e1bbaf",
+      "bytes": 33996,
+      "variable": true,
+      "axes": [
+        "wght"
+      ],
+      "weightMin": 200,
+      "weightMax": 800,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "\"Segoe UI\", sans-serif",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/fontsource/fonts/atkinson-hyperlegible-next:vf@5.3.0/latin-wght-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Atkinson+Hyperlegible+Next"
+    },
+    {
+      "id": "caveat",
+      "family": "Caveat",
+      "category": "handwriting",
+      "file": "files/caveat.woff2",
+      "licenseFile": "licenses/caveat.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2014 The Caveat Project Authors (https://github.com/googlefonts/caveat)",
+      "sha256": "891951df5e8b5b0f0bc760d31375405e795c666b5add70437de12d4a6482b33f",
+      "bytes": 74932,
+      "variable": true,
+      "axes": [
+        "wght"
+      ],
+      "weightMin": 400,
+      "weightMax": 700,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "\"Segoe Script\", cursive",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/fontsource/fonts/caveat:vf@5.3.0/latin-wght-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Caveat"
+    },
+    {
+      "id": "space-grotesk",
+      "family": "Space Grotesk",
+      "category": "sans-serif",
+      "file": "files/space-grotesk.woff2",
+      "licenseFile": "licenses/space-grotesk.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)",
+      "sha256": "0640890476fc1198ab4de571fb658de443c4d85b66466ec09534a8737ab1ce9d",
+      "bytes": 22288,
+      "variable": true,
+      "axes": [
+        "wght"
+      ],
+      "weightMin": 300,
+      "weightMax": 700,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "\"Segoe UI\", sans-serif",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/fontsource/fonts/space-grotesk:vf@5.3.0/latin-wght-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Space+Grotesk"
+    },
+    {
+      "id": "ibm-plex-mono",
+      "family": "IBM Plex Mono",
+      "category": "monospace",
+      "file": "files/ibm-plex-mono.woff2",
+      "licenseFile": "licenses/ibm-plex-mono.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-ThinItalic.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-ExtraLight.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-ExtraLightItalic.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-Light.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-LightItalic.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-Regular.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-Italic.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-Medium.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-MediumItalic.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-SemiBold.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-SemiBoldItalic.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-Bold.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-BoldItalic.ttf: Copyright 2017 IBM Corp. All rights reserved.",
+      "sha256": "08949f728dc52d528e69b1667d15c89a5686a4ee9a296ff90983985f99c380f7",
+      "bytes": 14708,
+      "variable": false,
+      "axes": [],
+      "weightMin": 400,
+      "weightMax": 400,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "\"Courier New\", monospace",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/npm/@fontsource/ibm-plex-mono@5.3.0/files/ibm-plex-mono-latin-400-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/IBM+Plex+Mono"
+    },
+    {
+      "id": "public-sans",
+      "family": "Public Sans",
+      "category": "sans-serif",
+      "file": "files/public-sans.woff2",
+      "licenseFile": "licenses/public-sans.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2015 The Public Sans Project Authors (https://github.com/uswds/public-sans) PublicSans-Italic[wght].ttf: Copyright 2015 The Public Sans Project Authors (https://github.com/uswds/public-sans)",
+      "sha256": "5ed4d31c988e73b258894244f209069ebe77dc7e564861954b21198b6de90d68",
+      "bytes": 26832,
+      "variable": true,
+      "axes": [
+        "wght"
+      ],
+      "weightMin": 100,
+      "weightMax": 900,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "\"Segoe UI\", sans-serif",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/fontsource/fonts/public-sans:vf@5.3.0/latin-wght-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Public+Sans"
+    },
+    {
+      "id": "instrument-serif",
+      "family": "Instrument Serif",
+      "category": "serif",
+      "file": "files/instrument-serif.woff2",
+      "licenseFile": "licenses/instrument-serif.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif) InstrumentSerif-Italic.ttf: Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif)",
+      "sha256": "5eb09b5ac0e28b67c2f041c8ba6d244604ca0c0980d65912ab2d47fed84ddc31",
+      "bytes": 21032,
+      "variable": false,
+      "axes": [],
+      "weightMin": 400,
+      "weightMax": 400,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "Georgia, \"Palatino Linotype\", serif",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/npm/@fontsource/instrument-serif@5.3.0/files/instrument-serif-latin-400-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Instrument+Serif"
+    },
+    {
+      "id": "teko",
+      "family": "Teko",
+      "category": "sans-serif",
+      "file": "files/teko.woff2",
+      "licenseFile": "licenses/teko.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)",
+      "sha256": "9f908ba2cfa6103dd08e4e59b6be48fafc790f55c7f718be712d3d13170a93fb",
+      "bytes": 15420,
+      "variable": true,
+      "axes": [
+        "wght"
+      ],
+      "weightMin": 300,
+      "weightMax": 700,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "\"Arial Narrow\", sans-serif",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/fontsource/fonts/teko:vf@5.3.0/latin-wght-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Teko"
+    },
+    {
+      "id": "great-vibes",
+      "family": "Great Vibes",
+      "category": "handwriting",
+      "file": "files/great-vibes.woff2",
+      "licenseFile": "licenses/great-vibes.txt",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2010 The Great Vibes Pro Project Authors (https://github.com/googlefonts/great-vibes)",
+      "sha256": "c59dc73d29daf142ef2431f455d21464172374aa750d793a79d608735db2d856",
+      "bytes": 42800,
+      "variable": false,
+      "axes": [],
+      "weightMin": 400,
+      "weightMax": 400,
+      "style": "normal",
+      "subset": "latin",
+      "fallback": "\"Segoe Script\", cursive",
+      "fontsource": "5.3.0",
+      "origin": "https://cdn.jsdelivr.net/npm/@fontsource/great-vibes@5.3.0/files/great-vibes-latin-400-normal.woff2",
+      "specimen": "https://fonts.google.com/specimen/Great+Vibes"
     }
   ],
   "pairings": [
@@ -242,7 +602,10 @@
         "bodyLineHeight": 1.5,
         "bodyTracking": "0",
         "bodyWeight": 400
-      }
+      },
+      "occasion": "local",
+      "picture": "pictures/counter-poster.png",
+      "pictureSize": 112
     },
     {
       "id": "dining-room",
@@ -265,7 +628,10 @@
         "bodyLineHeight": 1.5,
         "bodyTracking": "0",
         "bodyWeight": 400
-      }
+      },
+      "occasion": "sit-down",
+      "picture": "pictures/dining-room.png",
+      "pictureSize": 96
     },
     {
       "id": "menu-editorial",
@@ -289,7 +655,10 @@
         "bodyLineHeight": 1.5,
         "bodyTracking": "0",
         "bodyWeight": 400
-      }
+      },
+      "occasion": "editorial",
+      "picture": "pictures/menu-editorial.png",
+      "pictureSize": 84
     },
     {
       "id": "cafe-window",
@@ -313,7 +682,10 @@
         "bodyLineHeight": 1.5,
         "bodyTracking": "0",
         "bodyWeight": 400
-      }
+      },
+      "occasion": "chill",
+      "picture": "pictures/cafe-window.png",
+      "pictureSize": 92
     },
     {
       "id": "night-sign",
@@ -336,7 +708,10 @@
         "bodyLineHeight": 1.5,
         "bodyTracking": "0",
         "bodyWeight": 400
-      }
+      },
+      "occasion": "night",
+      "picture": "pictures/night-sign.png",
+      "pictureSize": 118
     },
     {
       "id": "practice",
@@ -357,6 +732,360 @@
         "displayLineHeight": 1.05,
         "displayTracking": "-0.015em",
         "displayWeight": 560,
+        "bodySize": "1.0625rem",
+        "bodyLineHeight": 1.5,
+        "bodyTracking": "0",
+        "bodyWeight": 400
+      },
+      "occasion": "serious",
+      "picture": "pictures/practice.png",
+      "pictureSize": 80
+    },
+    {
+      "id": "high-end",
+      "name": "High end",
+      "half": "cool",
+      "occasion": "high-end",
+      "display": "bodoni-moda",
+      "body": "outfit",
+      "industries": [
+        "restaurant",
+        "bar"
+      ],
+      "sampleDisplay": "The room stays quiet.",
+      "sampleBody": "A short menu, a cold glass, and no rush.",
+      "why": "Bodoni Moda is a high-contrast fashion serif. It reads as a dining room with a dress code. Outfit keeps the details from trying to be fancy too.",
+      "picture": "pictures/high-end.png",
+      "pictureSize": 100,
+      "scale": {
+        "displaySize": "clamp(3rem, 6vw, 5rem)",
+        "displayLineHeight": 0.98,
+        "displayTracking": "-0.02em",
+        "displayWeight": 600,
+        "bodySize": "1.0625rem",
+        "bodyLineHeight": 1.5,
+        "bodyTracking": "0",
+        "bodyWeight": 400
+      }
+    },
+    {
+      "id": "thick",
+      "name": "Thick",
+      "half": "cool",
+      "occasion": "thick",
+      "display": "archivo-black",
+      "body": "archivo",
+      "industries": [
+        "restaurant",
+        "bar"
+      ],
+      "sampleDisplay": "Today only.",
+      "sampleBody": "One line on the window, heavy enough to read from the street.",
+      "why": "Archivo Black is the thick cut. It is one weight, so the page does not fake a bolder one. Archivo, the text face from the same family, carries the rest.",
+      "picture": "pictures/thick.png",
+      "pictureSize": 120,
+      "scale": {
+        "displaySize": "clamp(3.2rem, 8vw, 6rem)",
+        "displayLineHeight": 0.9,
+        "displayTracking": "-0.03em",
+        "displayWeight": 400,
+        "bodySize": "1.0625rem",
+        "bodyLineHeight": 1.5,
+        "bodyTracking": "0",
+        "bodyWeight": 400
+      }
+    },
+    {
+      "id": "thin",
+      "name": "Thin",
+      "half": "cool",
+      "occasion": "thin",
+      "display": "raleway",
+      "body": "outfit",
+      "industries": [
+        "cafe",
+        "bakery"
+      ],
+      "sampleDisplay": "A light hand on the glass.",
+      "sampleBody": "The name is thin. The hours stay at a normal weight so they can be read.",
+      "why": "Raleway at a light weight is the thin occasion: tall, open, and quiet. It is for a cafe window, not for a paragraph of directions.",
+      "picture": "pictures/thin.png",
+      "pictureSize": 84,
+      "scale": {
+        "displaySize": "clamp(2.8rem, 6vw, 4.75rem)",
+        "displayLineHeight": 1.05,
+        "displayTracking": "0.01em",
+        "displayWeight": 200,
+        "bodySize": "1.0625rem",
+        "bodyLineHeight": 1.5,
+        "bodyTracking": "0",
+        "bodyWeight": 400
+      }
+    },
+    {
+      "id": "sharp",
+      "name": "Sharp",
+      "half": "cool",
+      "occasion": "sharp",
+      "display": "big-shoulders-display",
+      "body": "schibsted-grotesk",
+      "industries": [
+        "bar",
+        "trade"
+      ],
+      "sampleDisplay": "Cut sharp. Served hot.",
+      "sampleBody": "The corners are square and the letters are narrow.",
+      "why": "Big Shoulders Display is a condensed gothic with sharp corners, like a machined sign. Schibsted Grotesk does the address without copying that sharpness.",
+      "picture": "pictures/sharp.png",
+      "pictureSize": 108,
+      "scale": {
+        "displaySize": "clamp(3rem, 7vw, 5.5rem)",
+        "displayLineHeight": 0.88,
+        "displayTracking": "-0.02em",
+        "displayWeight": 800,
+        "bodySize": "1.0625rem",
+        "bodyLineHeight": 1.5,
+        "bodyTracking": "0",
+        "bodyWeight": 400
+      }
+    },
+    {
+      "id": "soft",
+      "name": "Soft",
+      "half": "cool",
+      "occasion": "soft",
+      "display": "quicksand",
+      "body": "nunito-sans",
+      "industries": [
+        "bakery",
+        "cafe"
+      ],
+      "sampleDisplay": "Soft, and still warm.",
+      "sampleBody": "Round letters for a bakery case, not a costume script.",
+      "why": "Quicksand is a round grotesque. The terminals are soft without becoming a cartoon. Nunito Sans keeps the menu in the same mood at reading size.",
+      "picture": "pictures/soft.png",
+      "pictureSize": 88,
+      "scale": {
+        "displaySize": "clamp(2.8rem, 6vw, 4.75rem)",
+        "displayLineHeight": 1.02,
+        "displayTracking": "-0.02em",
+        "displayWeight": 500,
+        "bodySize": "1.0625rem",
+        "bodyLineHeight": 1.5,
+        "bodyTracking": "0",
+        "bodyWeight": 400
+      }
+    },
+    {
+      "id": "bubble",
+      "name": "Bubble",
+      "half": "cool",
+      "occasion": "bubble",
+      "display": "fredoka",
+      "body": "nunito-sans",
+      "industries": [
+        "cafe",
+        "bakery"
+      ],
+      "sampleDisplay": "Hey, you made it.",
+      "sampleBody": "A friendly counter, an ice cream shop, a Saturday.",
+      "why": "Fredoka is a bubbly grotesque with a real weight axis, so it can be a sign and still stay a font you can read. It is not a comic-book face.",
+      "picture": "pictures/bubble.png",
+      "pictureSize": 100,
+      "scale": {
+        "displaySize": "clamp(3rem, 7vw, 5.25rem)",
+        "displayLineHeight": 0.98,
+        "displayTracking": "-0.03em",
+        "displayWeight": 600,
+        "bodySize": "1.0625rem",
+        "bodyLineHeight": 1.5,
+        "bodyTracking": "0",
+        "bodyWeight": 400
+      }
+    },
+    {
+      "id": "small",
+      "name": "Small",
+      "half": "cool",
+      "occasion": "small",
+      "display": "atkinson-hyperlegible-next",
+      "body": "atkinson-hyperlegible-next",
+      "industries": [
+        "dentist",
+        "lawyer",
+        "trade"
+      ],
+      "sampleDisplay": "The hours, the phone, and the address.",
+      "sampleBody": "Set small on purpose. The letters stay apart, so a footer still reads.",
+      "why": "Atkinson Hyperlegible Next is drawn so similar letters do not blur at small sizes. Use it for the line under the headline, the footer, and the hours.",
+      "picture": "pictures/small.png",
+      "pictureSize": 42,
+      "scale": {
+        "displaySize": "clamp(1.25rem, 2vw, 1.7rem)",
+        "displayLineHeight": 1.35,
+        "displayTracking": "0",
+        "displayWeight": 450,
+        "bodySize": "1.0625rem",
+        "bodyLineHeight": 1.5,
+        "bodyTracking": "0",
+        "bodyWeight": 400
+      }
+    },
+    {
+      "id": "handwritten",
+      "name": "Handwritten",
+      "half": "cool",
+      "occasion": "handwritten",
+      "display": "caveat",
+      "body": "source-sans-3",
+      "industries": [
+        "cafe",
+        "bakery",
+        "restaurant"
+      ],
+      "sampleDisplay": "Back at two. Leave it on the counter.",
+      "sampleBody": "A note in the window. The address under it is still a plain sans.",
+      "why": "Caveat is a handwriting face with an open license, for one note, not for the whole menu. Source Sans 3 prints the facts the note should not have to carry.",
+      "picture": "pictures/handwritten.png",
+      "pictureSize": 72,
+      "scale": {
+        "displaySize": "clamp(2.4rem, 5vw, 3.6rem)",
+        "displayLineHeight": 1.15,
+        "displayTracking": "0",
+        "displayWeight": 600,
+        "bodySize": "1.0625rem",
+        "bodyLineHeight": 1.5,
+        "bodyTracking": "0",
+        "bodyWeight": 400
+      }
+    },
+    {
+      "id": "technical",
+      "name": "Technical",
+      "half": "cool",
+      "occasion": "technical",
+      "display": "space-grotesk",
+      "body": "ibm-plex-mono",
+      "industries": [
+        "trade"
+      ],
+      "sampleDisplay": "Order 1842 is ready.",
+      "sampleBody": "Bay 3. Side door. The number is the point.",
+      "why": "Space Grotesk for the label, IBM Plex Mono for the number. Both are OFL. This is the shop-ticket occasion, not a startup landing page.",
+      "picture": "pictures/technical.png",
+      "pictureSize": 64,
+      "scale": {
+        "displaySize": "clamp(2.2rem, 4vw, 3.4rem)",
+        "displayLineHeight": 1.1,
+        "displayTracking": "-0.02em",
+        "displayWeight": 500,
+        "bodySize": "1.0625rem",
+        "bodyLineHeight": 1.5,
+        "bodyTracking": "0",
+        "bodyWeight": 400
+      }
+    },
+    {
+      "id": "vintage",
+      "name": "Vintage",
+      "half": "cool",
+      "occasion": "vintage",
+      "display": "instrument-serif",
+      "body": "source-sans-3",
+      "industries": [
+        "restaurant",
+        "cafe"
+      ],
+      "sampleDisplay": "On this corner a long time.",
+      "sampleBody": "A serif with some age. The hours underneath are modern and plain.",
+      "why": "Instrument Serif is a contemporary old-style, one weight, for a place that wants to feel established. Source Sans 3 keeps the practical lines in this decade.",
+      "picture": "pictures/vintage.png",
+      "pictureSize": 78,
+      "scale": {
+        "displaySize": "clamp(2.8rem, 6vw, 4.6rem)",
+        "displayLineHeight": 1.05,
+        "displayTracking": "-0.02em",
+        "displayWeight": 400,
+        "bodySize": "1.0625rem",
+        "bodyLineHeight": 1.5,
+        "bodyTracking": "0",
+        "bodyWeight": 400
+      }
+    },
+    {
+      "id": "sport",
+      "name": "Sport",
+      "half": "cool",
+      "occasion": "sport",
+      "display": "teko",
+      "body": "source-sans-3",
+      "industries": [
+        "bar"
+      ],
+      "sampleDisplay": "Doors at seven.",
+      "sampleBody": "Tall, narrow, and fast. The address is a normal sans so it can be copied.",
+      "why": "Teko is a tall sports gothic. It fits a game night or a standing-room bar. It is a poor choice for a dentist, and the bank does not offer it there.",
+      "picture": "pictures/sport.png",
+      "pictureSize": 120,
+      "scale": {
+        "displaySize": "clamp(3.4rem, 8vw, 6rem)",
+        "displayLineHeight": 0.85,
+        "displayTracking": "0.01em",
+        "displayWeight": 600,
+        "bodySize": "1.0625rem",
+        "bodyLineHeight": 1.5,
+        "bodyTracking": "0",
+        "bodyWeight": 400
+      }
+    },
+    {
+      "id": "plain",
+      "name": "Plain",
+      "half": "cool",
+      "occasion": "plain",
+      "display": "public-sans",
+      "body": "public-sans",
+      "industries": [
+        "trade",
+        "dentist"
+      ],
+      "sampleDisplay": "Open from nine until six.",
+      "sampleBody": "The number is on the door. Nothing else is trying to be a poster.",
+      "why": "Public Sans is a plain American gothic, drawn for government forms and easy to read. Use it when the job is the facts and a display face would get in the way.",
+      "picture": "pictures/plain.png",
+      "pictureSize": 56,
+      "scale": {
+        "displaySize": "clamp(2rem, 4vw, 3rem)",
+        "displayLineHeight": 1.15,
+        "displayTracking": "-0.02em",
+        "displayWeight": 560,
+        "bodySize": "1.0625rem",
+        "bodyLineHeight": 1.5,
+        "bodyTracking": "0",
+        "bodyWeight": 400
+      }
+    },
+    {
+      "id": "signature",
+      "name": "Signature",
+      "half": "cool",
+      "occasion": "signature",
+      "display": "great-vibes",
+      "body": "source-sans-3",
+      "industries": [
+        "bakery",
+        "cafe"
+      ],
+      "sampleDisplay": "Made this morning.",
+      "sampleBody": "One signature line. The price and the hours are not in the script.",
+      "why": "Great Vibes is a formal script with an open license, for a single line on a bakery card or a reservation note. A whole page in it cannot be read, so the body stays Source Sans 3.",
+      "picture": "pictures/signature.png",
+      "pictureSize": 96,
+      "scale": {
+        "displaySize": "clamp(2.8rem, 6vw, 4.5rem)",
+        "displayLineHeight": 1.2,
+        "displayTracking": "0",
+        "displayWeight": 400,
         "bodySize": "1.0625rem",
         "bodyLineHeight": 1.5,
         "bodyTracking": "0",

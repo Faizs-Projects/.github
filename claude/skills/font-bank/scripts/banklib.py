@@ -25,3 +25,11 @@ def stack(family):
 
 def normalize_industry(value):
     return value.strip().lower().replace("_", "-").replace(" ", "-")
+
+
+def weight_css(family):
+    lo = family["weightMin"]
+    hi = family["weightMax"]
+    if lo == hi:
+        return str(lo)
+    return f"{lo} {hi}"
